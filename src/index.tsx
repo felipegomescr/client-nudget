@@ -7,6 +7,7 @@ import { reportWebVitals } from "reportWebVitals";
 
 const container = document.createElement("div");
 const root = createRoot(container);
+
 document.body.append(container);
 
 root.render(
