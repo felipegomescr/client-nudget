@@ -13,7 +13,7 @@ document.body.append(container);
 root.render(
 	<React.StrictMode>
 		<App />
-		<Toaster />
+		<Toaster position="bottom-left" reverseOrder />
 	</React.StrictMode>
 );
 

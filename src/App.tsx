@@ -1,9 +1,9 @@
-import { LiveVisitorCount } from "components/LiveVisitorCount";
+import { ProductView } from "components/ProductView";
 
 export const App = () => {
 	return (
 		<>
-			<LiveVisitorCount />
+			<ProductView />
 		</>
 	);
 };
