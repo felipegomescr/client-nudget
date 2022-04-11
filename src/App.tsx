@@ -1,11 +1,11 @@
-import { LowStock } from "low-stock/low-stock.component";
-import { ProductView } from "product-view/product-view.component";
+import { PageView } from "page-view/page-view.component";
+import { Subscription } from "subscription/subscription.component";
 
 export const App = () => {
 	return (
 		<>
-			<LowStock />
-			<ProductView />
+			<PageView />
+			<Subscription />
 		</>
 	);
 };
